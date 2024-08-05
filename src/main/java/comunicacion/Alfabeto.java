@@ -12,7 +12,7 @@ public class Alfabeto extends Pictograma{
         this.interpretacion = interpretacion;
     }
 
-    //Métodos
+    //Metodos
     public String[] getLetras() {
         return letras;
     }

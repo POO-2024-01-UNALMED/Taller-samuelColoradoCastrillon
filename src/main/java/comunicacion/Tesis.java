@@ -21,7 +21,7 @@ public class Tesis extends Escrito{
         this.interpretacion = interpretacion;
     }
 
-    //Métodos
+    //Metodos
     public String getIdea() {
         return idea;
     }

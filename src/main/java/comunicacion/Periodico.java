@@ -15,7 +15,7 @@ String interpretacion) {
         this.interpretacion = interpretacion;
     }
 
-    //Métodos
+    //Metodos
     public String getFecha() {
         return fecha;
     }

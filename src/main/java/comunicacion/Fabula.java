@@ -12,7 +12,7 @@ public class Fabula extends Escrito{
         this.interpretacion = interpretacion;
     }
 
-    //Métodos
+    //Metodos
     public String getEnsenanza() {
         return ensenanza;
     }
