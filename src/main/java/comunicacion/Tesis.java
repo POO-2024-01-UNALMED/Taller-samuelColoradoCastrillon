@@ -11,8 +11,7 @@ public class Tesis extends Escrito{
     private String interpretacion;
 
     //Constructor
-    public Tesis(String origen, String titulo, String autor, int paginas, String idea, String[] argumentos,
-                 String conclusion, String referencias, String interpretacion){
+    public Tesis(String origen, String titulo, String autor, int paginas, String idea, String[] argumentos, String conclusion, String referencias, String interpretacion){
         super(origen, titulo, autor, paginas);
         this.idea = idea;
         this.argumentos = argumentos;
@@ -56,7 +55,6 @@ public class Tesis extends Escrito{
         return this.getPaginas() * palabrasPagina * 5;
     }
     public String toString(){
-        return this.getOrigen() + "\n" + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" +
-                idea + "\n" + argumentos.length + "\n" + conclusion + "\n" + referencias;
+        return this.getOrigen() + "\n" + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + idea + "\n" + argumentos.length + "\n" + conclusion + "\n" + referencias;
     }
 }

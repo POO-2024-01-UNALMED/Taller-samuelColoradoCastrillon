@@ -7,8 +7,7 @@ public class Periodico extends Escrito {
     private String interpretacion;
 
     //Constructor
-    public Periodico(String origen, String titulo, String autor, int paginas, String fecha, String primicia, }
-String interpretacion) {
+    public Periodico(String origen, String titulo, String autor, int paginas, String fecha, String primicia, String interpretacion) {
         super(origen, titulo, autor, paginas);
         this.fecha = fecha;
         this.primicia = primicia;
@@ -38,7 +37,6 @@ String interpretacion) {
         return getPaginas() * palabrasPagina * 10;
     }
     public String toString() {
-        return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + fecha + "\n" +
-                primicia;
+        return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + fecha + "\n" + primicia;
     }
 }
